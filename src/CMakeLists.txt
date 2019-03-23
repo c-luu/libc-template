@@ -1,0 +1,1 @@
+add_library(example SHARED example.c)
