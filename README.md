@@ -20,7 +20,8 @@ sudo make install
 Only installs to:
 > /usr/local/*
 
-so, may need to set and export LD_LIBRARY_PATH accordingly.
+so, may need to set and export LD_LIBRARY_PATH accordingly, or:
+> export LD_RUN_PATH=/usr/local/lib
 
 ## Use
 Link with e.g.:
