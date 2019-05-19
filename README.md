@@ -21,7 +21,9 @@ Only installs to:
 > /usr/local/*
 
 so, may need to set and export LD_LIBRARY_PATH accordingly, or:
-> export LD_RUN_PATH=$LD_LIBRARY_PATH:/usr/local/lib
+> export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/lib
+
+Alternatively, see `exports.sh`, run with `source` command for set-up.
 
 ## Use
 Link with e.g.:
