@@ -37,3 +37,14 @@ Link with e.g.:
 ## Tests
 After build:
 > ctest --output-on-failure . -V
+
+## Docker
+### Hyperv
+If using `docker-toolbox` on Windows:
+
+1. [Setup a hyperv driver docker-machine and external network switch.](https://docs.docker.com/machine/drivers/hyper-v/)
+2. Run `docker-machine env <your machine name here>` and follow the instructions.
+3. Stuck here since `docker-toolbox` only allows you to map your users directory.
+
+## Vagrantfile
+Just map the folders you want and `vagrant up && vagrant ssh`.
