@@ -46,5 +46,9 @@ If using `docker-toolbox` on Windows:
 2. Run `docker-machine env <your machine name here>` and follow the instructions.
 3. Stuck here since `docker-toolbox` only allows you to map your users directory.
 
+### MacOS
+1. `docker build --rm .`
+2. `docker run -it --rm -v ~/path/to/src:/src <image_id> /bin/bash`
+
 ## Vagrantfile
 Just map the folders you want and `vagrant up && vagrant ssh`.
