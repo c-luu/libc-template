@@ -39,7 +39,7 @@ Vagrant.configure(2) do |config|
   # the path on the host to the actual folder. The second argument is
   # the path on the guest to mount the folder. And the optional third
   # argument is a set of non-required options.
-  # config.vm.synced_folder "../osutils", "/vagrant_data"
+  # config.vm.synced_folder "../synced/folder", "/vagrant_data"
 
   # Provider-specific configuration so you can fine-tune various
   # backing providers for Vagrant. These expose provider-specific options.
@@ -60,11 +60,11 @@ Vagrant.configure(2) do |config|
   # configuration lines below.
   #
   # Share folder between host and guest. Must explicily set these properites
-  # config.vm.synced_folder "../cluu", "/vagrant"
+  # config.vm.synced_folder "../some/folder", "/vagrant"
   #
   # Hyper-V specific configurations
   # https://www.vagrantup.com/docs/hyperv/configuration.html
-  #config.vm.provider "hyperv" do |h|
+  # config.vm.provider "hyperv" do |h|
   #  h.enable_virtualization_extensions = true
   #  h.linked_clone = true
   #  h.vm_integration_services = {

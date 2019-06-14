@@ -22,4 +22,5 @@ RUN apt-get update && apt-get install -y \
     llvm \
     net-tools \
     libtool \
-    pkg-config
+    pkg-config \
+    check
