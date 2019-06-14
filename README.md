@@ -52,3 +52,6 @@ If using `docker-toolbox` on Windows:
 
 ## Vagrantfile
 Just map the folders you want and `vagrant up && vagrant ssh`.
+
+# References
+1. [Starting and stopping containers](https://stackoverflow.com/questions/26153686/how-do-i-run-a-command-on-an-already-existing-docker-container)
