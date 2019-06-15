@@ -23,4 +23,6 @@ RUN apt-get update && apt-get install -y \
     net-tools \
     libtool \
     pkg-config \
-    check
+    check \
+    tmux \
+    vim
