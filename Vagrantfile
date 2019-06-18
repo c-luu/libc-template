@@ -94,7 +94,7 @@ config.vm.provision "shell", inline: <<-SHELL
       build-essential git pkg-config zip unzip software-properties-common \
       python-pip python-dev \
       libgmp-dev gcc-multilib valgrind openmpi-bin openmpi-doc libopenmpi-dev \
-      portmap rpcbind libcurl4-openssl-dev bzip2 imagemagick libmagickcore-dev \
+      portmap rpcbind libcurl4-openssl-dev bzip2 \
       libssl-dev libffi6 libffi-dev llvm \
       check pkg-config
 

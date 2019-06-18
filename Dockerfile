@@ -16,8 +16,6 @@ RUN apt-get update && apt-get install -y \
     rpcbind \
     libcurl4-openssl-dev \
     bzip2 \
-    imagemagick \
-    libmagickcore-dev \
     libssl-dev \
     llvm \
     net-tools \
