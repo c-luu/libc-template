@@ -49,6 +49,7 @@ If using `docker-toolbox` on Windows:
 ### MacOS
 1. `docker build --rm .`
 2. `docker run -it --rm -v ~/path/to/src:/src <image_id> /bin/bash`
+3. `docker run --cap-add SYS_PTRACE -it -v ~/path/to/src:/src <image_id> /bin/bash` (optional for TSan).
 
 ## Vagrantfile
 Just map the folders you want and `vagrant up && vagrant ssh`.
