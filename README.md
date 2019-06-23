@@ -41,7 +41,7 @@ After build:
 ## Documentation
 We'll attempt to use `doxygen` to generate templates. 
 
-1. Try this [container](https://hub.docker.com/r/nxpleuvenjenkins/doxygen) `docker run -it --rm -w /src -v ~/Source/libc-template:/src nxpleuvenjenkins/doxygen doxygen doxyconf`.
+1. Try this [container](https://hub.docker.com/r/nxpleuvenjenkins/doxygen) `docker run --rm -w /src -v ~/Source/libc-template:/src nxpleuvenjenkins/doxygen doxygen doxyconf`.
 2. Create `doxygen` config file, or use the included `doxyconf`.
 3. Run the `doxygen` command on the config file.
 4. [Serve](https://dev.to/nicolasmesa/serve-your-current-directory-with-python-and-http-2m3p) the pages in the `html` folder.
