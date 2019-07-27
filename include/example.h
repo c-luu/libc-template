@@ -1,6 +1,6 @@
 /**
  * @file example.h
- * @author Cody Luu
+ * @author Your name
  * @brief File containing example of doxygen usage for quick reference.
  *
  * Here typically goes a more extensive explanation of what the header
