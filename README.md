@@ -21,7 +21,7 @@ After build:
 
 or:
 
-`docker run --rm -v ~/src/path:/src -w /src/build <included built image> ctest --output-on-failure=true . -V`
+`docker run --rm -v ${PWD}/src -w /src/build <included built image> ctest --output-on-failure=true . -V`
 
 ## Documentation
 We'll attempt to use `doxygen` to generate templates. 
